@@ -1,0 +1,25 @@
+/* Programa Minimo*/
+#include<stdio.h>
+
+void ler1(char* a){
+	scanf("%c", (*a));
+}
+
+char ler2(char a){
+	scanf("%c", a);
+	reurn a;
+}
+
+
+int main(){
+	char c = 'a';
+	c++;         //c = 'b'
+	c += 2;
+
+	ler1(&c);
+	ler2(c);
+
+	printf("Alo Estrutura de Dados"/n);
+	// outros comandos
+	return 0;
+}

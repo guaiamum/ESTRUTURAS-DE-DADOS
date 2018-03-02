@@ -1,0 +1,14 @@
+.c.o:   $*.h
+	gcc -c $*.c
+
+.cpp.o:	$*.h
+	g++	-c $*.cpp
+
+all:	Funcoes 
+
+Funcoes:  Funcoes.o 
+	gcc -o $@ $^
+
+
+clean:
+	rm *.o Funcoes 

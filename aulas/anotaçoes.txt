@@ -1,0 +1,33 @@
+main equivale à program em pascal
+
+return é o que a funcao retorna
+
+= equivale :=
+== euivale = 
+
+tipos de dados:
+	void = vazio
+	int = inteiro
+	float = decimal de dez casas
+		int vetor[10]
+		char string[10]
+
+scanf=readln
+	scanf("%d", &c);
+?		%d=inteiro
+		%2d=2 primeiros digitos
+		&=endereco
+		%c=caracter
+		%s=ler string
+		%f = float
+		%lf= double
+
+gets(string)=funcao leitura string problematica
+
+\n=ln(quebra de linha)
+\t=tab
+
+printf=writeln
+	printf("imprimindo a bagaca %d",variavel);
+		%d=lugar onde a variavel sera impressa
+perl.exe -c -w
